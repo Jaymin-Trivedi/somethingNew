@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div class="row" *ngFor="let item of items">
+        <div class="col-3"></div>
+        <div class="col-6" style="border-style: groove;" align="center">
+            <img [src]="item.img"/>
+            <br><br>
+            <span style="color: cyan;"><h3>{{item.desc}}</h3></span>
+
+        </div>
+        <div class="col-3"></div>
+        <br/><br/>
+    </div>
+
+</div>
+
